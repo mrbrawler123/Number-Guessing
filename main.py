@@ -6,7 +6,7 @@ time.sleep(3)
 x = 0
 n = int(input("Enter your number limit: "))
 import random
-r = random.randint(1,n)
+r = random.randint(1, n)
 while True:
 	try:
 		s = int(input("Enter your guess: "))
